@@ -75,7 +75,7 @@ const Chains = () => {
     const animateChains = () => {
       if (!chainsContainer) return;
 
-      chainsPosition -= 1.5;
+      chainsPosition -= 1.2;
 
       // Reset when position exceeds half the total scrollable content (since we triplicated it)
       const scrollWidth = chainsContainer.scrollWidth / 3; // One set worth of items
@@ -95,27 +95,6 @@ const Chains = () => {
       cancelAnimationFrame(chainsAnimation);
     };
   }, []);
-
-  /* Animation function using pure JS for carousel
-  useEffect(() => {
-    const chainsContainer = chainsRef.current;
-
-    let chainsPosition = 0;
-
-    const animateChains = () => {
-      chainsPosition -= 0.5;
-      if (chainsPosition <= -1920) chainsPosition = 0;
-      if (chainsContainer)
-        chainsContainer.style.transform = `translateX(${chainsPosition}px)`;
-      requestAnimationFrame(animateChains);
-    };
-
-    const chainsAnimation = requestAnimationFrame(animateChains);
-
-    return () => {
-      cancelAnimationFrame(chainsAnimation);
-    };
-  }, []); */
 
   return (
     <>

@@ -74,7 +74,7 @@ const Partners = () => {
     const animatepartners = () => {
       if (!partnersContainer) return;
 
-      partnersPosition += 1.5;
+      partnersPosition -= 1.8;
 
       // Reset when position exceeds half the total scrollable content (since we triplicated it)
       const scrollWidth = partnersContainer.scrollWidth / 3; // One set worth of items
