@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
               <Link
                 to="#"
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full hover:from-yellow-500 hover:to-yellow-600 shadow-md transition-colors"
+                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-yellow-400 rounded-full hover:to-yellow-600 shadow-md transition-colors"
               >
                 Get Started for Free <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -27,7 +27,10 @@ const Footer = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-50 border-t border-gray-100 pt-16 pb-12">
+      <footer
+        id="footer"
+        className="bg-gray-50 border-t border-gray-100 pt-16 pb-12"
+      >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div>
@@ -191,9 +194,7 @@ const Footer = () => {
           <div className="border-t border-gray-200 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center">
-                <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-200 mr-2">
-                  Raba
-                </span>
+                <img src="logo.png" className="w-20 mr-4" />
                 <span className="text-gray-500">
                   © 2025 All rights reserved.
                 </span>

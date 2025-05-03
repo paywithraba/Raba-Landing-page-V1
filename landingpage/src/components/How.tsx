@@ -21,7 +21,7 @@ const HowItWorks = () => {
 
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
-              <div className="relative text-center">
+              <div className="relative bg-gray-50 rounded-sm py-7 text-center">
                 <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
                   <span className="text-white font-bold">1</span>
                 </div>
@@ -35,7 +35,7 @@ const HowItWorks = () => {
               </div>
 
               {/* Step 2 */}
-              <div className="relative text-center">
+              <div className="relative bg-gray-50 py-7 rounded-sm text-center">
                 <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
                   <span className="text-white font-bold">2</span>
                 </div>
@@ -48,7 +48,7 @@ const HowItWorks = () => {
               </div>
 
               {/* Step 3 */}
-              <div className="relative text-center">
+              <div className="relative bg-gray-50 py-7 rounded-sm text-center">
                 <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10">
                   <span className="text-white font-bold">3</span>
                 </div>
@@ -65,7 +65,7 @@ const HowItWorks = () => {
           <div className="mt-16 text-center">
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full hover:from-yellow-500 hover:to-yellow-600 shadow-md transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-yellow-400 rounded-full shadow-md transition-colors"
             >
               Get Started Now <ChevronRight className="ml-2 h-4 w-4" />
             </Link>

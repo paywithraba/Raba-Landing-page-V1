@@ -2,7 +2,6 @@ import Header from "./Header";
 import Intro from "./Intro";
 import Features from "./Features";
 import HowItWorks from "./How";
-import Tesimonials from "./Testimonials";
 import Footer from "./Footer";
 
 const Home = () => {
@@ -12,7 +11,6 @@ const Home = () => {
       <Intro />
       <Features />
       <HowItWorks />
-      <Tesimonials />
       <Footer />
     </>
   );

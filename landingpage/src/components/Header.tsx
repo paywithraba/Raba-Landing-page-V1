@@ -7,41 +7,39 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 sm:h-20">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-200">
-                Raba
-              </span>
+              <img src="logo.png" className="w-22" />
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <Link
+              to="#intro"
+              className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors"
+            >
+              Home
+            </Link>
+            <Link
               to="#features"
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors"
             >
-              Features
+              About
             </Link>
             <Link
-              to="#how-it-works"
+              to="#footer"
               className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors"
             >
-              How It Works
-            </Link>
-            <Link
-              to="#testimonials"
-              className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors"
-            >
-              Testimonials
+              Contact
             </Link>
           </nav>
           <div className="flex items-center">
             <Link
               to="#"
-              className="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-full hover:bg-gray-50 transition-colors"
+              className="hidden sm:inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 transition-colors"
             >
               Sign In
             </Link>
             <Link
               to="#"
-              className="inline-flex items-center justify-center ml-4 px-4 py-2 text-sm font-medium text-white bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full hover:from-yellow-500 hover:to-yellow-600 shadow-sm transition-colors"
+              className="inline-flex items-center justify-center ml-4 px-4 py-2 text-sm font-medium text-white bg-[#E5C66E] rounded-md hover:cursor-pointer shadow-sm transition-colors"
             >
               Get Started
             </Link>

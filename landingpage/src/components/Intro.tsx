@@ -9,31 +9,32 @@ const Intro = () => {
     setIsVisible(true);
   }, []);
   return (
-    <section className="pt-32 pb-24 sm:pt-40 sm:pb-32">
+    <section id="intro" className="pt-32 pb-24 sm:pt-40 sm:pb-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          className={`max-w-4xl mx-auto text-center transition-opacity duration-800 ${
+          className={`max-w-4xl mx-auto transition-opacity duration-800 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
         >
           <h1
-            className={`text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6 transition-all duration-800 ${
+            className={`text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6 transition-all duration-800 ${
               isVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-5 opacity-0"
             }`}
           >
-            Finance, Simplified with Crypto
+            Powering <span className="bg-yellow-200">Digital</span> Payments
+            with StableCoins
           </h1>
           <p
-            className={`text-xl text-gray-600 mb-10 max-w-2xl mx-auto transition-all duration-800 delay-200 ${
+            className={`text-xl text-gray-600 mb-10 max-w-2xl transition-all duration-800 delay-200 ${
               isVisible
                 ? "translate-y-0 opacity-100"
                 : "translate-y-5 opacity-0"
             }`}
           >
-            Buy airtime, pay utilities, and transact with stablecoins — all in
-            one place.
+            Raba makes it easy to pay for airtime, data, electricity, and more -
+            fast, secure and built for Africa's digital economy
           </p>
           <div
             className={`flex flex-col sm:flex-row items-center justify-center gap-4 transition-all duration-800 delay-400 ${
@@ -44,15 +45,15 @@ const Intro = () => {
           >
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full hover:from-yellow-500 hover:to-yellow-600 shadow-md transition-colors w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-black rounded-sm shadow-md transition-colors w-full sm:w-auto"
             >
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
             <Link
               to="#"
-              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-full hover:bg-gray-50 transition-colors w-full sm:w-auto"
+              className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-sm hover:bg-gray-50 transition-colors w-full sm:w-auto"
             >
-              Learn More
+              Call Support
             </Link>
           </div>
         </div>
