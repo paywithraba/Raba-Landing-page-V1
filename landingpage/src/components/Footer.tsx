@@ -1,31 +1,9 @@
-import { ArrowRight, Github, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
-      <section className="py-20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-3xl p-8 sm:p-12 shadow-sm border border-yellow-200">
-            <div className="text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                Ready to Simplify Your Finances?
-              </h2>
-              <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-                Join thousands of users who are already enjoying the benefits of
-                crypto-powered bill payments and transactions.
-              </p>
-              <Link
-                to="#"
-                className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-yellow-400 rounded-full hover:to-yellow-600 shadow-md transition-colors"
-              >
-                Get Started for Free <ArrowRight className="ml-2 h-4 w-4" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer
         id="footer"

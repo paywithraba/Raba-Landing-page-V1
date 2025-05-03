@@ -64,14 +64,13 @@ const Intro = () => {
           }`}
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-            <div className="w-full h-64 md:h-96 bg-gradient-to-r from-yellow-100 to-yellow-300" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-          </div>
-          <div className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur-sm rounded-full py-2 px-6 shadow-lg border border-gray-100">
-            <div className="flex items-center space-x-2 text-sm font-medium text-gray-600">
-              <span className="flex h-2 w-2 rounded-full bg-green-400"></span>
-              <span>Trusted by 10,000+ users worldwide</span>
-            </div>
+            <img
+              src="./public/billboard.png"
+              alt="Raba DeFi App Billboard"
+              width={800}
+              height={200}
+              className="w-full h-auto"
+            />
           </div>
         </div>
       </div>
