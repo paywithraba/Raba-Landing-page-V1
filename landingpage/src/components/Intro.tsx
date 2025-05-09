@@ -23,8 +23,8 @@ const Intro = () => {
                 : "translate-y-5 opacity-0"
             }`}
           >
-            Powering <span className="bg-yellow-200">Digital</span> Payments
-            with StableCoins
+            Powering <span className="bg-yellow-200 px-2">Digital</span>{" "}
+            Payments with StableCoins
           </h1>
           <p
             className={`text-xl text-gray-600 mb-10 max-w-2xl transition-all duration-800 delay-200 ${
@@ -65,7 +65,7 @@ const Intro = () => {
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="./public/billboard.png"
+              src="/billboard.png"
               alt="Raba DeFi App Billboard"
               width={800}
               height={200}

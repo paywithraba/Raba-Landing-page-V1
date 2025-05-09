@@ -35,31 +35,11 @@ const Partners = () => {
       ),
     },
     {
-      name: "Flutterwave",
+      name: "Bitmama",
       icon: (
         <img
-          src="/flutterwave.jpg"
-          alt="Flutterwave"
-          className="h-12 w-12 rounded-full object-cover"
-        />
-      ),
-    },
-    {
-      name: "Paychant",
-      icon: (
-        <img
-          src="/paychant.jpg"
-          alt="Paychant"
-          className="h-12 w-12 rounded-full object-cover"
-        />
-      ),
-    },
-    {
-      name: "Fonbnk",
-      icon: (
-        <img
-          src="/fonbnk.jpg"
-          alt="Fonbnk"
+          src="/bitmama.jpg"
+          alt="Bitmama"
           className="h-12 w-12 rounded-full object-cover"
         />
       ),

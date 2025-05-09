@@ -16,31 +16,11 @@ const Chains = () => {
       ),
     },
     {
-      name: "Ethereum",
+      name: "Lisk",
       icon: (
         <img
-          src="/eth.jpg"
-          alt="Ethereum"
-          className="h-12 w-12 rounded-full object-cover"
-        />
-      ),
-    },
-    {
-      name: "Sui",
-      icon: (
-        <img
-          src="/sui.jpg"
-          alt="Sui"
-          className="h-12 w-12 rounded-full object-cover"
-        />
-      ),
-    },
-    {
-      name: "Polygon",
-      icon: (
-        <img
-          src="/polygon.jpg"
-          alt="Polygon"
+          src="/lisk.png"
+          alt="Lisk"
           className="h-12 w-12 rounded-full object-cover"
         />
       ),
