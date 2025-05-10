@@ -1,5 +1,3 @@
-import { CreditCard, Wallet, Zap } from "lucide-react";
-
 const Features = () => {
   return (
     <section id="features" className="py-20 bg-gray-50">
@@ -14,49 +12,70 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 mx-auto">
           {/* Feature 1 */}
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
-              <CreditCard className="h-6 w-6 text-yellow-600" />
+          <div className="bg-white flex flex-col lg:flex-row gap-4 items-start md:items-center rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div className="flex-shrink-0">
+              <img
+                src="/airtime.jpg"
+                className="w-24 sm:w-28 md:w-32 lg:w-24"
+                alt="Airtime"
+              />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Buy Airtime with Crypto
-            </h3>
-            <p className="text-gray-600">
-              Purchase mobile airtime and data bundles using your favorite
-              cryptocurrencies instantly.
-            </p>
+
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Buy Airtime with Crypto
+              </h3>
+              <p className="text-gray-600">
+                Purchase mobile airtime and data bundles using your favorite
+                cryptocurrencies instantly.
+              </p>
+            </div>
           </div>
 
           {/* Feature 2 */}
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
-              <Zap className="h-6 w-6 text-yellow-600" />
+          <div className="bg-white flex flex-col lg:flex-row gap-4 items-start md:items-center rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div className="flex-shrink-0">
+              <img
+                src="/electricity.jpg"
+                className="w-24 sm:w-28 md:w-32 lg:w-24"
+                alt="Airtime"
+              />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
-              Pay Utility Bills
-            </h3>
-            <p className="text-gray-600">
+
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
+                Pay Utility Bills
+              </h3>
+              <p className="text-gray-600">
               Settle electricity, water, and other utility bills seamlessly with
               cryptocurrency.
-            </p>
+              </p>
+            </div>
           </div>
 
           {/* Feature 3 */}
-          <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-            <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-6">
-              <Wallet className="h-6 w-6 text-yellow-600" />
+          <div className="bg-white flex flex-col lg:flex-row gap-4 items-start md:items-center rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div className="flex-shrink-0">
+              <img
+                src="/home.jpg"
+                className="w-24 sm:w-28 md:w-32 lg:w-24"
+                alt="Airtime"
+              />
             </div>
-            <h3 className="text-xl font-bold text-gray-900 mb-3">
+
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">
               Multiple Stablecoins
-            </h3>
-            <p className="text-gray-600">
+              </h3>
+              <p className="text-gray-600">
               Support for various stablecoins including USDT, USDC, and more for
               stable transactions.
-            </p>
+              </p>
+            </div>
           </div>
-        </div>
+      </div>
       </div>
     </section>
   );
