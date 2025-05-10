@@ -1,6 +1,6 @@
-import { ArrowRight } from "lucide-react";
+//import { ArrowRight } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Intro = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,9 +9,9 @@ const Intro = () => {
     setIsVisible(true);
   }, []);
   return (
-    <section id="intro" className="pt-32 pb-24 sm:pt-40 sm:pb-32">
+    <section id="intro" className="pt-10 pb-24 sm:pt-40 sm:pb-32">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div
+        {/*<div
           className={`max-w-4xl mx-auto transition-opacity duration-800 ${
             isVisible ? "opacity-100" : "opacity-0"
           }`}
@@ -56,20 +56,18 @@ const Intro = () => {
               Call Support
             </Link>
           </div>
-        </div>
+        </div>*/}
 
         <div
-          className={`mt-16 relative max-w-5xl mx-auto transition-all duration-1000 delay-500 ${
+          className={`relative max-w-5xl mx-auto transition-all duration-1000 delay-500 ${
             isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="/billboard.png"
+              src="/banner.jpg"
               alt="Raba DeFi App Billboard"
-              width={800}
-              height={200}
-              className="w-full h-auto"
+              className="w-full h-130"
             />
           </div>
         </div>
