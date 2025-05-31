@@ -107,7 +107,7 @@ const Header = () => {
                     </span>
                   </a>
                   <a
-                    href="https://appdistribution.firebase.google.com/testerapps/1:133821445914:android:2a7de9e2900b94a72e1ea3/releases/3c9fktgf1af9o?utm_source=firebase-console"
+                    href="https://appdistribution.firebase.dev/i/794824e5cd97c554"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex flex-col items-center text-gray-700 hover:text-black hover:bg-gray-100 rounded-lg p-2"
